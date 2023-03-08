@@ -1,3 +1,5 @@
+package baithuchanh2402.src;
+
 
 import java.util.Scanner;
 import java.lang.Math;
@@ -6,13 +8,14 @@ public class Slide34 {
     public static void main(String[] arg) {
         float a, b, c;
         double delta, x1, x2;
-        Scanner myNum = new Scanner(System.in);
-        System.out.println("Nhap a :");
-        a = myNum.nextFloat();
-        System.out.println("Nhap b :");
-        b = myNum.nextFloat();
-        System.out.println("Nhap c :");
-        c = myNum.nextFloat();
+        try (Scanner myNum = new Scanner(System.in)) {
+            System.out.println("Nhap a :");
+            a = myNum.nextFloat();
+            System.out.println("Nhap b :");
+            b = myNum.nextFloat();
+            System.out.println("Nhap c :");
+            c = myNum.nextFloat();
+        }
         delta = Math.pow(b, 2) - 4 * a * c;
 
         if (a == 0) {
