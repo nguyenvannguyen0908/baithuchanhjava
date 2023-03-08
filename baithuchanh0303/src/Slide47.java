@@ -3,15 +3,23 @@ package baithuchanh0303.src;
 import java.util.Scanner;
 
 public class Slide47 {
-    public static void main(String[] arg){
-        int sum = 0, number;
+    public static void main(String[] args) {
+        int sum = 0;
+        String plus = "";
         Scanner sc = new Scanner(System.in);
-        do {
-           System.out.println("Nhap so nguyen :");
-           number=sc.nextInt();
-           sum += number;
-        }while(sum < 100 );
-        System.out.println("Tong =" + sum);
 
+        while (true) {
+            System.out.print("Nhap mot so nguyen: ");
+            int num = sc.nextInt();
+            sum += num;
+            plus += num + "+";
+
+            if (sum > 100) {
+                plus = plus.substring(0, plus.length() - 1);
+                plus += "=" + sum;
+                System.out.println(plus);
+                break;
+            }
+        }
     }
 }
