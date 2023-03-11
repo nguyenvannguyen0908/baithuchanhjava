@@ -25,7 +25,7 @@ public class Slide74 {
                 
         }
     }
-            System.out.print(sum);
+            System.out.print("tong cac so chan la : "+ sum);
     
     }
 }
