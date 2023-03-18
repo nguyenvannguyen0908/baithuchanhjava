@@ -1,4 +1,4 @@
-package BaiThucHanhLab2.src;
+package baithuchanhlab2.src;
 
 public class App {
     public static void main(String[] args) throws Exception {

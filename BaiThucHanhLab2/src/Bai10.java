@@ -1,4 +1,4 @@
-package BaiThucHanhLab2.src;
+package baithuchanhlab2.src;
 
 import java.util.Scanner;
 
