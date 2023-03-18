@@ -1,8 +1,8 @@
-package baithuchanh0303.src;
+package BaiThucHanhLab2.src;
 
 import java.util.Scanner;
 
-public class Slide47 {
+public class Bai5 {
     public static void main(String[] args) {
         int sum = 0;
         String plus = "";
