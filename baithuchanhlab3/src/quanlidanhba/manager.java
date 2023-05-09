@@ -46,6 +46,7 @@ public class manager {
         System.out.print("Nhap so dien thoai : ");
         phone_number = sc.nextLine();
         lc.insertContact(name,phone_number);
+        
     }
 
     public static void deleteContact() {
