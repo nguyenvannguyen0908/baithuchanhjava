@@ -2,8 +2,7 @@ package baithuchanhlab4.src.Lists;
 
 import java.util.LinkedList;
 import java.util.Scanner;
-
-import std.Student;
+import baithuchanhlab4.src.std.Student;
 
 public class LinkedListDemo {
 

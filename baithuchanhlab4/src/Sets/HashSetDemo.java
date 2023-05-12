@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Scanner;
 
 
-import std.Student;
+import baithuchanhlab4.src.std.Student;
 
 public class HashSetDemo {
 
